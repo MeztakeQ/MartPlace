@@ -1,9 +1,206 @@
-html {
-    box-sizing: border-box;
+@import "vars";
+@import "global";
+@import "fonts";
+
+.header__top {
+    background-color: #eef1f3;
 }
 
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
+.header__top-inner {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+.logo {
+    padding-left: 7px;
+}
+
+// .menu__top {
+
+//     .menu__list-top {
+
+//         .menu__item-top {
+//             display: inline-block;
+
+//             &+.menu__item-top {}
+
+//             .menu__link-top {
+//                 font-family: "Quicksand-Medium", sans-serif;
+//                 font-weight: 500;
+//                 font-size: 15px;
+//             }
+//         }
+//     }
+// }
+
+
+
+
+.header__box {
+    position: relative;
+    width: 47%;
+
+}
+
+.header__btn {
+    position: absolute;
+    padding: 6px 17px;
+    border-radius: 28px;
+    color: #fff;
+    background-color: $blue;
+    font-size: 14px;
+    text-align: center;
+    top: -21px;
+    left: 291px;
+}
+
+.lnr-alarm {
+    color: #7e8fa1;
+    font-size: 21px;
+    position: absolute;
+    left: 479px;
+    top: -13px;
+    transition: all 0.5s;
+    margin-right: 25px;
+}
+
+
+.lnr-alarm:focus,
+.lnr-alarm:hover {
+    color: $blue;
+}
+
+.lnr-envelope {
+    color: #7e8fa1;
+    font-size: 21px;
+    position: absolute;
+    left: 529px;
+    top: -15px;
+    transition: all 0.5s;
+    margin-right: 25px;
+}
+
+.lnr-envelope:focus,
+.lnr-envelope:hover {
+    color: $blue;
+}
+
+
+.lnr-cart {
+    color: #7e8fa1;
+    font-size: 21px;
+    position: absolute;
+    left: 582px;
+    top: -14px;
+    transition: all 0.5s;
+    margin-right: 47px;
+}
+
+.lnr-cart:focus,
+.lnr-cart:hover {
+    color: $blue;
+}
+
+
+
+.account {
+    position: relative;
+    width: 15%;
+}
+
+.account__img {
+    position: absolute;
+    top: -28px;
+}
+
+.account__info {
+    position: absolute;
+    left: 71px;
+    top: -27px;
+}
+
+.account__info-name {
+    font-family: "Quicksand-Medium", sans-serif;
+}
+
+
+.account__info-money {
+    color: $blue;
+    font-family: "Quicksand-Regular", sans-serif;
+    font-size: 15px;
+}
+
+.menu__down {
+    display: flex;
+    align-items: center;
+    height: 80px;
+
+    .menu__list-down {
+        margin-top: -5px;
+        margin-left: -1px;
+
+        .menu__item-down {
+            display: inline-block;
+            margin-right: -6px;
+
+            &+.menu__item-down {
+                margin-left: 35px;
+            }
+        }
+
+        .menu__link-down {
+            font-family: "Quicksand-Medium", sans-serif;
+            font-weight: 500;
+            font-size: 15px;
+            text-transform: uppercase;
+            line-height: 42px;
+        }
+    }
+}
+
+.menu__link-down:focus,
+.menu__link-down:hover {
+    color: $blue;
+}
+
+.search {
+    max-width: 360px;
+    margin: 0 auto;
+    position: relative;
+    margin-left: 293px;
+
+    .search__text {
+        display: block;
+        height: 44px;
+        border-radius: 30px;
+        outline: none;
+        padding-left: 24px;
+        padding-right: 135px;
+        border: 1px solid #d9dfe5;
+
+        &:focus {
+            border: 1px solid $blue;
+        }
+
+        &::placeholder {
+            color: #898f96;
+        }
+    }
+
+    .search__btn {
+        justify-content: center;
+        display: flex;
+        border-radius: 59px;
+        width: 70px;
+        height: 46px;
+        position: absolute;
+        border: none;
+        background-color: $blue;
+        right: -1px;
+        top: -1px;
+        align-items: center;
+        outline: none;
+    }
 }
