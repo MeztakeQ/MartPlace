@@ -45,3 +45,30 @@ body {
     line-height: 0.933;
     padding: 41px 0px 40px 30px;
 }
+
+.placeholder {
+    color: #c8cbce;
+}
+
+.lnr-heart {
+    margin-right: 9px;
+    color: #8660c9;
+
+    &:active {
+        color: red;
+
+    }
+}
+
+.lnr-cart {
+    padding-right: 9px;
+}
+
+.dots {
+    display: block;
+    width: 4px;
+    height: 4px;
+    background-color: #a3b1c4;
+    color: #000;
+    border-radius: 50%;
+}
