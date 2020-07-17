@@ -99,6 +99,7 @@
       margin-right: 20px;
       margin-left: 12px;
       margin-top: -4px;
+      background-repeat: no-repeat;
     }
   }
 
@@ -1021,36 +1022,36 @@
 //   padding-right: 6px
 // }
 
-// .slick-arrow {
-//   position: absolute;
-//   top: 133px;
-//   height: 44px;
-//   border: none;
-//   background-color: #7347c1;
-//   margin-right: 29px;
-//   outline: none;
-//   right: 111px;
-// }
+.slick-arrow {
+  position: absolute;
+  top: 133px;
+  height: 44px;
+  border: none;
+  background-color: #7347c1;
+  margin-right: 29px;
+  outline: none;
+  right: 111px;
+}
 
 
-// .slick-next {
-//   width: 55px;
-//   border-radius: 0 23px 23px 0;
-//   right: 2px;
-//   top: -127px;
-// }
+.slick-next {
+  width: 55px;
+  border-radius: 0 23px 23px 0;
+  right: 2px;
+  top: -127px;
+}
 
-// .slick-prev {
-//   width: 55px;
-//   right: 55px;
-//   top: -127px;
-//   border-radius: 23px 0 0 23px;
-// }
+.slick-prev {
+  width: 55px;
+  right: 55px;
+  top: -127px;
+  border-radius: 23px 0 0 23px;
+}
 
-// .slick-prev:active {
-//   transform: translateY(1px);
-// }
+.slick-prev:active {
+  transform: translateY(1px);
+}
 
-// .slick-next:active {
-//   transform: translateY(1px);
-// }
+.slick-next:active {
+  transform: translateY(1px);
+}
